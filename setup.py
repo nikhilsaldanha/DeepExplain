@@ -11,12 +11,9 @@ setup(name='deepexplain',
       install_requires=[
             'scipy',
             'matplotlib',
-            'scikit-image'
+            'scikit-image',
+            'tensorflow==1.4.0'
       ],
-      extras_require={
-            "tf": ["tensorflow>=1.0.0"],
-            "tf_gpu": ["tensorflow-gpu>=1.0.0"],
-      },
       zip_safe=False,
       test_suite='nose.collector',
       tests_require=['nose'],
