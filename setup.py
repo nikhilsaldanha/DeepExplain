@@ -7,7 +7,7 @@ setup(name='deepexplain',
       author='Marco Ancona (ETH Zurich)',
       author_email='marco.ancona@inf.ethz.ch',
       license='MIT',
-      packages=['deepexplain'],
+      packages=['deepexplain', 'deepexplain.implementation', 'deepexplain.tests'],
       install_requires=[
             'scipy',
             'matplotlib',
