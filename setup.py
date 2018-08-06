@@ -12,7 +12,7 @@ setup(name='deepexplain',
             'scipy',
             'matplotlib',
             'scikit-image',
-            'tensorflow==1.4.0'
+            'tensorflow==1.9.0'
       ],
       zip_safe=False,
       test_suite='nose.collector',
